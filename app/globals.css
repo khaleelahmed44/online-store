@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-charcoal antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  @apply bg-ember text-white;
+}
